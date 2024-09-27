@@ -1,0 +1,7 @@
+[project]
+name="proteomics_academy"
+version = "0.0.0"
+dependencies = [
+    "mkdocs",
+    "mkdocs-material",
+]

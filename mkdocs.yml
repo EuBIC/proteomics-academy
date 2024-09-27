@@ -1,0 +1,57 @@
+site_name: Proteomics Academy
+site_url: http://127.0.0.1:8000/
+repo_url: https://github.com/eubic/proteomics-academy
+copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 License.
+theme:
+  name: material
+  palette:
+    primary: blue grey
+  icon:
+     repo: fontawesome/brands/github
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - toc.follow
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/eubic
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/EuBIC_ms
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/eubic/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/eubic-ms
+    - icon: fontawesome/brands/mastodon
+      link: https://mstdn.science/@EuBIC_MS
+  generator: false
+plugins:
+  - blog:
+      post_readtime: false
+      archive_name: By year
+      archive_toc: true
+      # archive_url_format: "events-archive/{date}"
+      categories: false
+      blog_dir: events
+nav:
+  - Home: index.md
+  - Online education: online-education.md
+  - Q&A platforms: q-and-a.md
+  - Jobs: jobs.md
+  - Event calendar:
+    - events/index.md
+  - External links:
+    - EuBIC-MS: https://eubic-ms.org/
+    - EuPA: https://www.eupa.org/
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.superfences

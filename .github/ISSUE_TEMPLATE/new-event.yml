@@ -1,0 +1,41 @@
+name: Add an event
+description: Propose to add a new entry to the event calendar
+labels: ["event"]
+body:
+  - type: input
+    id: event-name
+    attributes:
+      label: Event name
+      description: Succinct name of the event, for instance `HUPO 2024`
+    validations:
+      required: true
+  - type: input
+    id: event-dates
+    attributes:
+      label: Event dates
+      description: Event date range in the format dd-dd month yyyy, for instance `20-24 October 2024`
+      placeholder: dd-dd month yyyy
+    validations:
+      required: true
+  - type: input
+    id: event-location
+    attributes:
+      label: Event location
+      description: City and country where the event takes place, for instance `Dresden, Germany`
+    validations:
+      required: true
+  - type: textarea
+    id: event-description
+    attributes:
+      label: Event description
+      description: Very brief description of the event.
+      placeholder: This event is about ... and ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: relevance
+    attributes:
+      label: Relevance to the European proteomics community
+      options:
+        - label: I confirm that this event is relevant to the European proteomics community
+          required: true
