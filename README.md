@@ -1,5 +1,7 @@
 # Proteomics Academy
 
+[![deployment](https://github.com/EuBIC/proteomics-academy/actions/workflows/deploy.yml/badge.svg)](https://github.com/EuBIC/proteomics-academy/actions/workflows/deploy.yml)
+
 Proteomics Academy is a collection of tutorials and resources for learning about
 proteomics. We also list upcoming events and recommend Q&A forums and job boards
 for proteomics researchers.
