@@ -1,16 +1,8 @@
 # Online education
 
-## Tool-specific documentation
+## Courses
 
-- [MaxQuant-Perseus](https://cox-labs.github.io)
-- [OpenMS](https://openms.readthedocs.io/)
-- [SkyLine](https://skyline.ms/wiki/home/software/Skyline/page.view?name=default)
-
-## Tutorials
-
-- [Bioinformatics for Proteomics (with SearchGUI-PeptideShaker)](https://www.compomics.com/bioinformatics-for-proteomics/)
-- [Galaxy Proteomics Training](https://training.galaxyproject.org/training-material/topics/proteomics/)
-- [How to package software with BioContainers](https://biocontainers-edu.readthedocs.io/)
+- [Comprehensive Overview of Bottom-Up Proteomics using Mass Spectrometry](https://jessegmeyerlab.github.io/proteomics-tutorial/)
 
 
 ## Video lectures
@@ -22,3 +14,15 @@
 - [Bioinformatics-in-eight-days by Dave Tabb [2017]](https://www.youtube.com/watch?v=gnBIS3vHbR4)
 - [Useful Hour by Dave Tabb [2017]](https://www.youtube.com/watch?v=BY4l7ZufCxY)
 - [Videos of the MaxQuant Summer School](https://www.youtube.com/@MaxQuantChannel/videos)
+
+## Tutorials
+
+- [Bioinformatics for Proteomics (with SearchGUI-PeptideShaker)](https://www.compomics.com/bioinformatics-for-proteomics/)
+- [Galaxy Proteomics Training](https://training.galaxyproject.org/training-material/topics/proteomics/)
+- [How to package software with BioContainers](https://biocontainers-edu.readthedocs.io/)
+
+## Software tutorials
+
+- [MaxQuant-Perseus](https://cox-labs.github.io)
+- [OpenMS](https://openms.readthedocs.io/)
+- [SkyLine](https://skyline.ms/wiki/home/software/Skyline/page.view?name=default)

@@ -36,10 +36,10 @@ body:
     attributes:
       label: Resource type
       options:
-        - Lecture
         - Course
-        - Workshop
+        - Video lecture
         - Tutorial
+        - Software tutorial
         - Other
     validations:
       required: true
