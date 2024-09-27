@@ -1,6 +1,6 @@
 name: Add an event
 description: Propose to add a new entry to the event calendar
-labels: ["event"]
+labels: ["event", "event-form"]
 body:
   - type: input
     id: event-name
@@ -12,9 +12,17 @@ body:
   - type: input
     id: event-dates
     attributes:
-      label: Event dates
+      label: Event date range
       description: Event date range in the format dd-dd month yyyy, for instance `20-24 October 2024`
       placeholder: dd-dd month yyyy
+    validations:
+      required: true
+  - type: input
+    id: event-start
+    attributes:
+      label: Event start date
+      description: Event start date in the format yyyy-mm-dd, for instance `2024-10-20`
+      placeholder: yyyy-mm-dd
     validations:
       required: true
   - type: input
@@ -22,6 +30,14 @@ body:
     attributes:
       label: Event location
       description: City and country where the event takes place, for instance `Dresden, Germany`
+    validations:
+      required: true
+  - type: input
+    id: event-url
+    attributes:
+      label: Event URL
+      description: URL to the event website, for instance `https://hupo2024.org`
+      placeholder: https://example.com/
     validations:
       required: true
   - type: textarea

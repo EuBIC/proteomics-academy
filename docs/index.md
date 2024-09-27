@@ -12,7 +12,7 @@ hide:
 
 Proteomics Academy is an educational resource for scientists wanting to exchange on Proteomics. It is a joint effort of the [European Proteomics Association (EuPA)][eupa] educational committee and the [European Bioinformatics Community for Mass Spectrometry (EuBIC-MS)][eubic] to foster exchange of knowledge on proteomics.
 
-The website and its different components are under constant improvement, feel free to explore, share your ideas, and contact us if you want to contribute!
+The website and its different components are under constant improvement. Feel free to explore, share your ideas, and contact us if you want to contribute!
 
 <br/>
 

@@ -1,0 +1,59 @@
+name: Add an educational resource
+description: Propose to add a new entry to the educational resources
+labels: ["education", "education-form"]
+body:
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource name
+      description: Succinct name of the resource, for instance `Lectures on Computation Proteomics by Prof. X`
+    validations:
+      required: true
+  - type: input
+    id: resource-year
+    attributes:
+      label: Year the resource was published
+      placeholder: yyyy
+    validations:
+      required: true
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      description: URL to the event website, for instance `https://hupo2024.org`
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: textarea
+    id: resource-description
+    attributes:
+      label: Resource description
+      description: Very brief description of the resource.
+    validations:
+      required: false
+  - type: dropdown
+    id: resource-type
+    attributes:
+      label: Resource type
+      options:
+        - Lecture
+        - Course
+        - Workshop
+        - Tutorial
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: relevance
+    attributes:
+      label: Relevance to the European proteomics community
+      options:
+        - label: I confirm that this resource is relevant to the European proteomics community
+          required: true
+  - type: checkboxes
+    id: availability
+    attributes:
+      label: Availability
+      options:
+        - label: I confirm that this resource is freely available to the public
+          required: true

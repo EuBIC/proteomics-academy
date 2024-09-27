@@ -1,6 +1,7 @@
 site_name: Proteomics Academy
 site_url: http://eubic.github.io/proteomics-academy/
 repo_url: https://github.com/eubic/proteomics-academy
+repo_name: EuBIC/proteomics-academy
 copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 License.
 theme:
   name: material
@@ -28,6 +29,7 @@ extra:
       link: https://mstdn.science/@EuBIC_MS
   generator: false
 plugins:
+  - macros
   - blog:
       post_readtime: false
       archive_name: By year
@@ -45,7 +47,6 @@ nav:
   - External links:
     - EuBIC-MS: https://eubic-ms.org/
     - EuPA: https://www.eupa.org/
-
 markdown_extensions:
   - admonition
   - attr_list
