@@ -1,5 +1,5 @@
 site_name: Proteomics Academy
-site_url: http://127.0.0.1:8000/
+site_url: http://eubic.github.io/proteomics-academy/
 repo_url: https://github.com/eubic/proteomics-academy
 copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 License.
 theme:
